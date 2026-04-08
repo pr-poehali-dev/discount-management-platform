@@ -14,6 +14,7 @@ import DiscountTester from "@/pages/DiscountTester";
 import UploadPage from "@/pages/UploadPage";
 import ReportsPage from "@/pages/ReportsPage";
 import SupportPage from "@/pages/SupportPage";
+import PresentationPage from "@/pages/PresentationPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -38,6 +39,7 @@ function AppRoutes() {
       <Route path="/upload" element={<ProtectedRoute><UploadPage /></ProtectedRoute>} />
       <Route path="/reports" element={<ProtectedRoute><ReportsPage /></ProtectedRoute>} />
       <Route path="/support" element={<ProtectedRoute><SupportPage /></ProtectedRoute>} />
+      <Route path="/presentation" element={<ProtectedRoute><PresentationPage /></ProtectedRoute>} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

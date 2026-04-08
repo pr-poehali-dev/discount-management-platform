@@ -12,6 +12,7 @@ const NAV_ITEMS = [
   { path: '/upload', label: 'Загрузка данных', icon: 'Upload' },
   { path: '/reports', label: 'Отчёты', icon: 'FileBarChart' },
   { path: '/support', label: 'Поддержка', icon: 'LifeBuoy' },
+  { path: '/presentation', label: 'Презентация', icon: 'Presentation' },
 ];
 
 interface LayoutProps {
